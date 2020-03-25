@@ -8,7 +8,9 @@ using Microsoft.Extensions.Logging;
 
 namespace DatingApp.API.Controllers
 {
+
     [Authorize]
+    //Hello
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
